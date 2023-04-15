@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'movie',
     'news',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -128,4 +129,5 @@ STATICFILES_DIRS = [
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
+LOGIN_URL = 'loginaccount'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
